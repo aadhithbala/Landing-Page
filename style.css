@@ -2,3 +2,32 @@ img{
     width: 500px;
     height: auto;
 }
+
+.header{
+    background: #1f2937;
+    padding: 20px 120px;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+}

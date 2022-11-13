@@ -6,6 +6,10 @@ img{
 .header{
     background: #1f2937;
     padding: 20px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+
 }
 
 .logo{
@@ -40,5 +44,11 @@ a{
 
 .top-content{
     display: flex;
+    justify-content: space-between;;
+}
+
+.header-main{
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }

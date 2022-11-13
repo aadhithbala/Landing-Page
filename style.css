@@ -9,9 +9,9 @@ img{
 }
 
 .logo{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .list{
@@ -20,6 +20,12 @@ img{
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 a{

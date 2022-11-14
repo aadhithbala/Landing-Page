@@ -83,10 +83,32 @@ button{
     font-size: 15px;
 }
 
+.rick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #5e80b8;
+}
+
+button:active{
+    background-color: #1d63d3;
+}
+
+.body-content{
+    margin: 50px 200px 20px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .info-heading{
     text-align: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #1F2937;
 }
 
@@ -96,4 +118,24 @@ button{
     height: 200px;
     border: solid 5px #3882F6;
     border-radius: 10px;
+}
+
+.kittens{
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.info{
+    /* border: solid 2px blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 40px;
+}
+
+.info .text{
+    text-align: center;
 }

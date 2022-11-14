@@ -104,7 +104,7 @@ a{
 .kitty-photo{
     width: 200px;
     height: 200px;
-    border: solid 5px #3882F6;
+    /* border: solid 5px #3882F6; */
     border-radius: 10px;
 }
 

@@ -2,6 +2,10 @@
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body{
+    margin: 0;
+}
+
 .header{
     background-color: #1F2937;
     padding: 25px 100px 60px 100px;
@@ -160,5 +164,5 @@ button:active{
     color: #1F2937;
     font-weight: 700;
     font-size: 20px;
-    width: 900px;
+    width: 870px;
 }

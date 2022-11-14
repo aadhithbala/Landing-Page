@@ -163,12 +163,12 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 150px;
+    padding: 100px 150px;
 }
 
 .signup-content{
     background-color: #3882F6;
-    width: 1200px;
+    width: 1000px;
     height: 180px;
     display: flex;
     align-items: center;
@@ -200,4 +200,10 @@ a{
     border-radius: 5px;
     font-weight: bold;
     font-size: 14px;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    color: #F9FAF8;
 }

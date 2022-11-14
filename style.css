@@ -206,4 +206,7 @@ a{
     background-color: #1F2937;
     height: 100px;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

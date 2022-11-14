@@ -43,7 +43,7 @@ a{
 .kitty{
     width: 500px;
     height: auto;
-    
+    flex-shrink: 0;
 }
 
 .middle-content{
@@ -55,6 +55,8 @@ a{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content{

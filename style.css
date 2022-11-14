@@ -101,7 +101,7 @@ button:active{
 .info-heading{
     text-align: center;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 800;
     color: #1F2937;
 }
 
@@ -117,7 +117,7 @@ button:active{
     /* border: solid 2px red; */
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
 }
 
 .info{

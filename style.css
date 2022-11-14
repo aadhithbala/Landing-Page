@@ -80,14 +80,7 @@ button{
     border: none;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 15px;
-}
-
-.rick{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 button:hover{

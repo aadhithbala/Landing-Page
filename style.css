@@ -5,7 +5,7 @@
 
 .header{
     background-color: #1F2937;
-    padding: 25px 250px 60px 250px;
+    padding: 25px 100px 60px 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -81,4 +81,19 @@ button{
     border-radius: 5px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.info-heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+.kitty-photo{
+    width: 200px;
+    height: 200px;
+    border: solid 5px #3882F6;
+    border-radius: 10px;
 }

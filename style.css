@@ -214,7 +214,13 @@ a{
     background-color: #1F2937;
     height: 100px;
     color: #E5E7EB;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.credits{
+    font-size: 15px;
 }

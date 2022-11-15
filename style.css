@@ -46,14 +46,15 @@ a{
 /* Resizes the image*/
 .kitty{
     width: 500px;
-    height: auto;
+    height: 330px;
     flex-shrink: 0;
 }
 
 .middle-content{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    /* border: solid 2px yellow; */
 }
 
 .title{
@@ -62,11 +63,17 @@ a{
     font-weight: bolder;
     display: flex;
     flex-wrap: wrap;
+    /* border: solid 2px red; */
 }
 
 .content{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
+    /* border: solid 2px greenyellow; */
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .signup{

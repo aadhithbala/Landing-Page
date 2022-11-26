@@ -29,10 +29,11 @@ body {
   width: 55px;
 }
 
-a {
+.list .navbar {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .top-content {
@@ -230,4 +231,11 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+
+/* List hover color change */
+
+.list .navbar:hover{
+  color: skyblue;
 }

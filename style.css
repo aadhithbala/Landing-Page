@@ -29,7 +29,8 @@ body {
   width: 55px;
 }
 
-.list .navbar {
+.list .navbar,
+a {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;

@@ -34,9 +34,9 @@ body {
 a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Roboto';
 }
 
 /* Top content section */
@@ -223,11 +223,6 @@ a {
   gap: 10px;
 }
 
-/* List hover color change */
-.list .navbar:hover {
-  color: skyblue;
-}
-
 /* Font family for headings */
 .title,
 .info-heading,
@@ -255,14 +250,14 @@ a {
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background-color: #3882f6;
+  background-color: #c7cd5a;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease-in-out;
 }
 
 .navbar:hover {
-  color: #3882f6;
+  color: #c7cd5a;
 }
 
 .navbar:hover::before {

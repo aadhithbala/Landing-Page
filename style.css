@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/* Reset default styles */
+
+/* Reset def`ault styles */
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
-/* Global styles */
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-/* Header section */
 .header {
   background-color: #1f2937;
   padding: 25px 100px 60px 100px;
@@ -28,6 +26,8 @@ body {
 
 .cat-logo {
   width: 55px;
+  /* border: solid 3px thistle; */
+  margin-bottom: 30px;
 }
 
 .list .navbar,
@@ -36,7 +36,6 @@ a {
   color: #e5e7eb;
   font-size: 17px;
   font-weight: 400;
-  font-family: 'Roboto';
 }
 
 /* Top content section */
@@ -96,7 +95,6 @@ a {
 
 .signup-button-two {
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Body content section */
@@ -112,13 +110,12 @@ a {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
-  font-family: 'Poppins', sans-serif;
 }
 
 .kitty-photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
 }
 
 .kittens {
@@ -131,16 +128,45 @@ a {
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  align-items: center;  
   width: 250px;
-  gap: 40px;
+  gap: 100px;
+  /* border: solid 3px purple; */
+  height: 400px;
+  box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  /* background-color: #1f2937; */
+  color: whitesmoke;
+  padding-bottom: 50px;
 }
 
-.info .text {
+.info:hover{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  width: 250px;
+  gap: 100px;
+  /* border: solid 3px purple; */
+  height: 400px;
+  box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  /* background-color: #1f2937; */
+  color: whitesmoke;
+  padding-bottom: 50px;
+  transform: scale(1.03);
+  transition: 0.6s;
+}
+
+.info > .text {
   text-align: center;
   width: 200px;
-  font-family: 'Fredoka One', cursive;
-  color: #2f3c4f;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  font-size: 20px;
+  /* border: solid 2px green; */
+  font-weight: bold;
 }
 
 /* Quote section */
@@ -174,7 +200,6 @@ a {
   font-weight: 700;
   font-size: 20px;
   width: 870px;
-  font-family: 'Poppins', sans-serif;
 }
 
 /* Signup section */
@@ -223,13 +248,6 @@ a {
   gap: 10px;
 }
 
-/* Font family for headings */
-.title,
-.info-heading,
-.author {
-  font-family: 'Poppins', sans-serif;
-}
-
 /* Button hover styles */
 .signup-button-one:hover,
 .signup-button-two:hover {
@@ -250,14 +268,14 @@ a {
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background-color: #c7cd5a;
+  background-color: #e5e7eb;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease-in-out;
 }
 
 .navbar:hover {
-  color: #c7cd5a;
+  color: #e5e7eb;
 }
 
 .navbar:hover::before {

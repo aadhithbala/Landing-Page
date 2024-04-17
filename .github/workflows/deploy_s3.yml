@@ -29,4 +29,4 @@ jobs:
 
       - name: Refresh Cloudfront Cache
         run: |
-          aws cloudfront create-invalidation --distribution-id E2ROYF6OZK3G3R --paths /*
+          aws cloudfront create-invalidation --distribution-id E2ROYF6OZK3G3R --paths "/*"

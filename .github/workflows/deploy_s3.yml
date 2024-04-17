@@ -17,7 +17,7 @@ jobs:
         run: aws --version
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://s3-cloudresume-aadhith/ --delete
+          aws s3 sync . s3://s3-thecatlounge-v1/ --delete
 
       - name: Refresh Cloudfront Cache
         run: |

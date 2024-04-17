@@ -13,6 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Check AWS Cli version
+        run: aws --version
       - name: Deploy to S3
         run: |
           aws s3 sync . s3://s3-cloudresume-aadhith/ --delete

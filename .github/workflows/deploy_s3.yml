@@ -1,15 +1,17 @@
-name: Update S3 Bucket and Invalidate CDN Cache
+name: Deploy to S3 and Invalidate CloudFront Cache
+
 on:
   push:
     branches:
-      - "main"
-jobs:
-  Deploy-S3-Bucket:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository code
-      - uses: actions/checkout@v4
-      - run: echo "The ${{github.repository}} has been cloned"
+      - main
 
-      - name: Check for AWS Cli installation in runner.
-      - run: aws configure
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install AWS CLI
+        run: aws cli

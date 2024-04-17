@@ -25,7 +25,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://s3-thecatlounge-v1/ --delete --exclude ".git/*" --exclude ".github/*"
+          aws s3 sync ./ s3://s3-thecatlounge-v1/ --exclude ".git/*" --exclude ".github/*" --delete
 
       - name: Refresh Cloudfront Cache
         run: |

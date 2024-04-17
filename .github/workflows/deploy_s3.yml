@@ -13,5 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install AWS CLI
-        run: aws cli
+      - name: Deploy to S3
+        run: |
+          aws s3 sync . s3://s3-cloudresume-aadhith/ --delete
+
+      - name: Refresh Cloudfront Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id E2ROYF6OZK3G3R --paths /*
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
